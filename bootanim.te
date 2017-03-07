@@ -32,6 +32,3 @@ r_dir_file(bootanim, cgroup)
 
 # System file accesses.
 allow bootanim system_file:dir r_dir_perms;
-
-# Themed resources (bootanimation)
-allow bootanim system_data_file:file open;
